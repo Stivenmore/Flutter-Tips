@@ -7,7 +7,7 @@ Tips from Flutter
 1. Send email with Flutter
 2. Read local Json
 
-Proximamente
+Coming soon
 
 3. Firebase Auth with Testing
 4. CI/CD Firebase Web and GitHub Action
@@ -15,7 +15,7 @@ Proximamente
 
 You can access the code and see how it was done
 =======
-3. Proximamente...Firebase Auth and Testing
+3. Coming soon...Firebase Auth and Testing
 
 ## Getting Started
 
