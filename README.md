@@ -6,7 +6,6 @@ Tips from Flutter
 
 1. Send email with Flutter
 2. Read local Json
-<<<<<<< HEAD
 
 Proximamente
 
