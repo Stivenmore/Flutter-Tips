@@ -30,8 +30,8 @@ class _SMTPState extends State<SMTP> {
   }
 
   metodo() async {
-    String username = 'example@gmail.com';
-    String password = '**********';
+    String username = 'donchancho01@gmail.com';
+    String password = 'diegoavenda';
 
     // ignore: deprecated_member_use
     final smtpServer = gmail(username, password);
@@ -43,10 +43,10 @@ class _SMTPState extends State<SMTP> {
     // Create our message.
     final message = Message()
       ..from = Address(username, 'Your name')
-      ..recipients.add('lenka2000@outlook.es')
-      ..ccRecipients.addAll(['lenka2000@outlook.es', 'lenka2000@outlook.es'])
-      ..bccRecipients.add(Address('lenka2000@outlook.es'))
-      ..subject = 'Test Dart Mailer library :: 😀 :: ${DateTime.now()}'
+      ..recipients.add('engineerindustrial1@gmail.com')
+      ..ccRecipients.addAll(['engineerindustrial1@gmail.com', 'engineerindustrial1@gmail.com'])
+      ..bccRecipients.add(Address('engineerindustrial1@gmail.com'))
+      ..subject = 'Hey esta es la prueba del protocolo SMTP :: 😀 :: ${DateTime.now()}'
       ..text = 'This is the plain text.\nThis is line 2 of the text part.'
       ..html = "<h1>Test</h1>\n<p>Hey! Here's some HTML content</p>";
 
@@ -72,10 +72,10 @@ class _SMTPState extends State<SMTP> {
     // adding the mail address as `String`.
     final equivalentMessage = Message()
       ..from = Address(username, 'Your name 😀')
-      ..recipients.add(Address('lenka2000@outlook.es'))
+      ..recipients.add(Address('engineerindustrial1@gmail.com@outlook.es'))
       ..ccRecipients
-          .addAll([Address('lenka2000@outlook.es'), 'lenka2000@outlook.es'])
-      ..bccRecipients.add('lenka2000@outlook.es')
+          .addAll([Address('lenka2000@engineerindustrial1@gmail.com.es'), 'engineerindustrial1@gmail.com@outlook.es'])
+      ..bccRecipients.add('engineerindustrial1@gmail.com')
       ..subject = 'Test Dart Mailer library :: 😀 :: ${DateTime.now()}'
       ..text = 'This is the plain text.\nThis is line 2 of the text part.'
       ..html =

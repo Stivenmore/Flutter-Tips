@@ -22,12 +22,20 @@ class Opc extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Text(
+              'FLUTTER TIPS',
+              style: TextStyle(fontSize: 26, fontWeight: FontWeight.w700),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(
+              height: 45,
+            ),
             TextButton(
                 onPressed: () => Navigator.push(
                     context, MaterialPageRoute(builder: (context) => SMTP())),
                 child: Text(
-                  'SMTP',
-                  style: TextStyle(fontSize: 24),
+                  'Send Email with Flutter',
+                  style: TextStyle(fontSize: 22),
                 )),
             SizedBox(
               height: 20,
@@ -37,8 +45,35 @@ class Opc extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => HomePage())),
                 child: Text(
                   'JsonLocal',
-                  style: TextStyle(fontSize: 24),
-                ))
+                  style: TextStyle(fontSize: 22),
+                )),
+            SizedBox(
+              height: 20,
+            ),
+            TextButton(
+                onPressed: () {},
+                child: Text(
+                  'FireBase Auth and Testing',
+                  style: TextStyle(fontSize: 22),
+                )),
+            SizedBox(
+              height: 20,
+            ),
+            TextButton(
+                onPressed: () {},
+                child: Text(
+                  'CI/CD Firebase and GitHub Action',
+                  style: TextStyle(fontSize: 22),
+                )),
+            SizedBox(
+              height: 20,
+            ),
+            TextButton(
+                onPressed: () {},
+                child: Text(
+                  '...',
+                  style: TextStyle(fontSize: 22),
+                )),
           ],
         ),
       ),
