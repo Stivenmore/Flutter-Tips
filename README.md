@@ -1,6 +1,6 @@
 # components
 
-This is new proyect
+This is new proyect created to contribute to the community of developers who are starting
 
 Tips from Flutter
 
