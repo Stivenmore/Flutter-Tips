@@ -5,6 +5,7 @@ This is new proyect created to contribute to the community of developers who are
 Tips from Flutter
 
 1- Send email with Flutter
+2- Read local Json
 
 ## Getting Started
 
