@@ -6,6 +6,7 @@ Tips from Flutter
 
 1. Send email with Flutter
 2. Read local Json
+3. Firebase Auth and Testing
 
 ## Getting Started
 
