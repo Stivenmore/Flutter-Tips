@@ -30,8 +30,8 @@ class _SMTPState extends State<SMTP> {
   }
 
   metodo() async {
-    String username = 'donchancho01@gmail.com';
-    String password = 'diegoavenda';
+    String username = 'Example@gmail.com';
+    String password = '**********';
 
     // ignore: deprecated_member_use
     final smtpServer = gmail(username, password);
