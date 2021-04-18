@@ -6,7 +6,7 @@ Tips from Flutter
 
 1. Send email with Flutter
 2. Read local Json
-<<<<<<< HEAD
+
 
 Proximamente
 
@@ -17,7 +17,6 @@ Proximamente
 You can access the code and see how it was done
 =======
 3. Proximamente...Firebase Auth and Testing
->>>>>>> daa877321f87bc95fe63de5b7e1dfb560b76e134
 
 ## Getting Started
 
