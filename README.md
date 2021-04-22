@@ -1,4 +1,4 @@
-# components
+# Flutter Tips
 
 This is new proyect created to contribute to the community of developers who are starting
 
@@ -6,17 +6,16 @@ Tips from Flutter
 
 1. Send email with Flutter
 2. Read local Json
+3. SupaBase auth with Flutter
 
+Coming soon
 
-Proximamente
-
-3. Firebase Auth with Testing
-4. CI/CD Firebase Web and GitHub Action
-5. Add letter styles
+4. Firebase Auth with Testing
+5. CI/CD Firebase Web and GitHub Action
+6. Add letter styles
 
 You can access the code and see how it was done
-=======
-3. Proximamente...Firebase Auth and Testing
+
 
 ## Getting Started
 

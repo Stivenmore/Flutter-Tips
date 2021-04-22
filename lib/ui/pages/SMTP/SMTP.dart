@@ -43,10 +43,12 @@ class _SMTPState extends State<SMTP> {
     // Create our message.
     final message = Message()
       ..from = Address(username, 'Your name')
-      ..recipients.add('engineerindustrial1@gmail.com')
-      ..ccRecipients.addAll(['engineerindustrial1@gmail.com', 'engineerindustrial1@gmail.com'])
-      ..bccRecipients.add(Address('engineerindustrial1@gmail.com'))
-      ..subject = 'Hey esta es la prueba del protocolo SMTP :: 😀 :: ${DateTime.now()}'
+      ..recipients.add('Example@gmail.com')
+      ..ccRecipients
+          .addAll(['engineerindustrial1@gmail.com', 'Example@gmail.com'])
+      ..bccRecipients.add(Address('Example@gmail.com'))
+      ..subject =
+          'Hey esta es la prueba del protocolo SMTP :: 😀 :: ${DateTime.now()}'
       ..text = 'This is the plain text.\nThis is line 2 of the text part.'
       ..html = "<h1>Test</h1>\n<p>Hey! Here's some HTML content</p>";
 
@@ -72,10 +74,9 @@ class _SMTPState extends State<SMTP> {
     // adding the mail address as `String`.
     final equivalentMessage = Message()
       ..from = Address(username, 'Your name 😀')
-      ..recipients.add(Address('engineerindustrial1@gmail.com@outlook.es'))
-      ..ccRecipients
-          .addAll([Address('lenka2000@engineerindustrial1@gmail.com.es'), 'engineerindustrial1@gmail.com@outlook.es'])
-      ..bccRecipients.add('engineerindustrial1@gmail.com')
+      ..recipients.add(Address('Example@gmail.com'))
+      ..ccRecipients.addAll([Address('Example@gmail.com'), 'Example@gmail.com'])
+      ..bccRecipients.add('Example@gmail.com')
       ..subject = 'Test Dart Mailer library :: 😀 :: ${DateTime.now()}'
       ..text = 'This is the plain text.\nThis is line 2 of the text part.'
       ..html =

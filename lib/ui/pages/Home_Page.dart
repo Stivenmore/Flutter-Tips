@@ -1,5 +1,5 @@
-import 'package:components/src/providers/menu_provider.dart';
-import 'package:components/src/utils/icono_string_utils.dart';
+import 'package:components/data/repositories/providers/menu_provider.dart';
+import 'package:components/ui/utils/icono_string_utils.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {

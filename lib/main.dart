@@ -1,5 +1,6 @@
-import 'package:components/src/pages/Home_Page.dart';
-import 'package:components/src/pages/SMTP/SMTP.dart';
+import 'package:components/ui/pages/Home_Page.dart';
+import 'package:components/ui/pages/SMTP/SMTP.dart';
+import 'package:components/ui/pages/SupaBase/Autentication/SupaBaseSignIn&Up.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -7,7 +8,12 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Opc());
+    return MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Opc(),
+    theme: ThemeData(
+      primaryColor: Colors.black,
+    ),);
   }
 }
 
@@ -18,6 +24,7 @@ class Opc extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -45,6 +52,16 @@ class Opc extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => HomePage())),
                 child: Text(
                   'JsonLocal',
+                  style: TextStyle(fontSize: 22),
+                )),
+            SizedBox(
+              height: 20,
+            ),
+             TextButton(
+                onPressed: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => SignIn())),
+                child: Text(
+                  'SupaBase with Flutter',
                   style: TextStyle(fontSize: 22),
                 )),
             SizedBox(
