@@ -33,6 +33,7 @@ class _SMTPState extends State<SMTP> {
     String username = 'Example@gmail.com';
     String password = '********';
 
+
     // ignore: deprecated_member_use
     final smtpServer = gmail(username, password);
     // Use the SmtpServer class to configure an SMTP server:
